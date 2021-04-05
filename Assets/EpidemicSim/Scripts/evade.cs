@@ -7,7 +7,7 @@ public class evade : MonoBehaviour
 {
     private NavMeshAgent _agent;
     public GameObject player;
-    public float EnemyDistanceRun = 4.0f;
+    public float EnemyDistanceRun = 3.0f;
     // Start is called before the first frame update
     void Start()
     {
