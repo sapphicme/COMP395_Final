@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/EpidemicSim/Scene/Menu Scene.unity
+    guid: 664c78a132b4929468b7de33a9e30fec
+  - enabled: 1
+    path: Assets/EpidemicSim/Scene/SampleScene.unity
+    guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects: {}
