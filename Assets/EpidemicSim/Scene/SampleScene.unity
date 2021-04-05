@@ -32641,7 +32641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5ab8f6d46889b43ac153a7b9f1f396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 14958721}
+  player: {fileID: 1030414581}
   EnemyDistanceRun: 4
 --- !u!114 &1191102671
 MonoBehaviour:
@@ -36848,7 +36848,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5ab8f6d46889b43ac153a7b9f1f396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 14958721}
+  player: {fileID: 1030414581}
   EnemyDistanceRun: 4
 --- !u!195 &1323236407
 NavMeshAgent:
