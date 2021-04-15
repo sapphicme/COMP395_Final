@@ -22,13 +22,21 @@ public class WanderAI : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        timer += Time.deltaTime;
-
-        if (timer >= wanderTimer)
+        if(this.gameObject.GetComponent<evade>().isDead == false)
         {
-            Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
-            _agent.SetDestination(newPos);
-            timer = 0;
+            timer += Time.deltaTime;
+
+            if (timer >= wanderTimer)
+            {
+                Vector3 newPos = RandomNavSphere(transform.position, wanderRadius, -1);
+                _agent.SetDestination(newPos);
+                timer = 0;
+            }
+        }
+
+        if(this.gameObject.GetComponent<evade>().isDead == true)
+        {
+            gameObject.GetComponent<NavMeshAgent>().isStopped = true;
         }
     }
 
@@ -43,5 +51,20 @@ public class WanderAI : MonoBehaviour
         NavMesh.SamplePosition(randDirection, out navHit, dist, layermask);
 
         return navHit.position;
+    }
+
+    private void OnCollisionEnter(Collision other)
+    {
+        Debug.Log("trigerred3");
+        if(other.gameObject.CompareTag("Victim"))
+        {
+            Debug.Log("trigerred2");
+            if(this.gameObject.GetComponent<evade>().isInfected == true && other.gameObject.GetComponent<evade>().isInfected == false)
+            {
+                Debug.Log("trigerred");
+                other.gameObject.GetComponent<Renderer>().material = other.gameObject.GetComponent<evade>().infected;
+                other.gameObject.GetComponent<evade>().isInfected = true;
+            }
+        }
     }
 }

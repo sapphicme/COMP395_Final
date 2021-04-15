@@ -10,14 +10,16 @@ public class evade : MonoBehaviour
     public float EnemyDistanceRun = 4.0f;
     public Material infected;
     public Material dead;
-    private bool isInfected = false;
+    public bool isInfected;
+    public bool isDead;
     private double countdown;
 
     // Start is called before the first frame update
     void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
-        
+        isInfected = false;
+        isDead = false;
     }
 
     // Update is called once per frame
@@ -27,7 +29,7 @@ public class evade : MonoBehaviour
         {
             float distance = Vector3.Distance(transform.position, player.transform.position);
 
-            Debug.Log("distance:" + distance);
+            //Debug.Log("distance:" + distance);
 
             if(distance < EnemyDistanceRun)
             {
@@ -46,6 +48,7 @@ public class evade : MonoBehaviour
             if(countdown >= 10)
             {
                 this.gameObject.GetComponent<Renderer>().material = dead;
+                isDead = true;
             }
 
         }
@@ -53,7 +56,7 @@ public class evade : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if(other.gameObject.tag == "Player")
+        if(other.gameObject.CompareTag("Player"))
         {
             this.gameObject.GetComponent<Renderer>().material = infected;
             isInfected = true;

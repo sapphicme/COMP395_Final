@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.43667564, g: 0.48427135, b: 0.5645232, a: 1}
+  m_IndirectSpecularColor: {r: 0.4366757, g: 0.48427194, b: 0.5645252, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3040,7 +3040,7 @@ GameObject:
   - component: {fileID: 101872166}
   m_Layer: 0
   m_Name: Victim (24)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -3110,6 +3110,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &101872169
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3432,7 +3434,7 @@ GameObject:
   - component: {fileID: 106519197}
   m_Layer: 0
   m_Name: Victim (2)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -3502,6 +3504,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &106519200
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3889,7 +3893,7 @@ GameObject:
   - component: {fileID: 118512529}
   m_Layer: 0
   m_Name: Victim (32)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -3959,6 +3963,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &118512532
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5066,7 +5072,7 @@ GameObject:
   - component: {fileID: 144001105}
   m_Layer: 0
   m_Name: Victim (10)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -5136,6 +5142,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &144001108
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5592,7 +5600,7 @@ GameObject:
   - component: {fileID: 149571225}
   m_Layer: 0
   m_Name: Victim (13)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -5662,6 +5670,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &149571228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6917,7 +6927,7 @@ GameObject:
   - component: {fileID: 196685728}
   m_Layer: 0
   m_Name: Victim (8)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -6987,6 +6997,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &196685731
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8580,7 +8592,7 @@ GameObject:
   - component: {fileID: 274722631}
   m_Layer: 0
   m_Name: Victim (6)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -8650,6 +8662,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &274722634
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9050,7 +9064,7 @@ GameObject:
   - component: {fileID: 287993954}
   m_Layer: 0
   m_Name: Victim (22)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -9120,6 +9134,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &287993957
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10321,7 +10337,7 @@ GameObject:
   - component: {fileID: 323763089}
   m_Layer: 0
   m_Name: Victim (26)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -10391,6 +10407,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &323763092
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10893,7 +10911,7 @@ GameObject:
   - component: {fileID: 338836540}
   m_Layer: 0
   m_Name: Victim (3)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -10963,6 +10981,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &338836543
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13385,7 +13405,7 @@ GameObject:
   - component: {fileID: 404369361}
   m_Layer: 0
   m_Name: Victim (36)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -13455,6 +13475,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &404369364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14311,7 +14333,7 @@ GameObject:
   - component: {fileID: 426726776}
   m_Layer: 0
   m_Name: Victim (28)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -14381,6 +14403,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &426726779
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18181,7 +18205,7 @@ GameObject:
   - component: {fileID: 590680219}
   m_Layer: 0
   m_Name: Victim (14)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -18251,6 +18275,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &590680222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20504,7 +20530,7 @@ GameObject:
   - component: {fileID: 671033291}
   m_Layer: 0
   m_Name: Victim (33)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -20574,6 +20600,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &671033294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21609,7 +21637,7 @@ GameObject:
   - component: {fileID: 700716613}
   m_Layer: 0
   m_Name: Victim (20)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -21679,6 +21707,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &700716616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22211,7 +22241,7 @@ GameObject:
   - component: {fileID: 721674491}
   m_Layer: 0
   m_Name: Victim (7)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -22281,6 +22311,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &721674494
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22373,7 +22405,7 @@ GameObject:
   - component: {fileID: 724049232}
   m_Layer: 0
   m_Name: Victim (12)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -22443,6 +22475,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &724049235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22728,7 +22762,7 @@ GameObject:
   - component: {fileID: 737410907}
   m_Layer: 0
   m_Name: Victim (21)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -22798,6 +22832,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &737410910
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23241,7 +23277,7 @@ GameObject:
   - component: {fileID: 750615150}
   m_Layer: 0
   m_Name: Victim (4)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -23311,6 +23347,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &750615153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -24697,7 +24735,7 @@ GameObject:
   - component: {fileID: 813334238}
   m_Layer: 0
   m_Name: Victim (16)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -24767,6 +24805,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &813334241
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25533,7 +25573,7 @@ GameObject:
   - component: {fileID: 842733804}
   m_Layer: 0
   m_Name: Victim (17)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -25603,6 +25643,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &842733807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26131,7 +26173,7 @@ GameObject:
   - component: {fileID: 857631712}
   m_Layer: 0
   m_Name: Victim (1)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -26201,6 +26243,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &857631715
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28143,7 +28187,7 @@ GameObject:
   - component: {fileID: 898762147}
   m_Layer: 0
   m_Name: Victim (19)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -28213,6 +28257,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &898762150
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28800,7 +28846,7 @@ GameObject:
   - component: {fileID: 922329180}
   m_Layer: 0
   m_Name: Victim (35)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -28870,6 +28916,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &922329183
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28986,7 +29034,7 @@ GameObject:
   - component: {fileID: 930992613}
   m_Layer: 0
   m_Name: Victim (34)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -29056,6 +29104,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &930992616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32100,23 +32150,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 0}
   dead: {fileID: 0}
---- !u!114 &1036851756
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1036851753}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 620b90bf309f20c4f8e2c0d8cedfe431, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  points:
-  - {fileID: 0}
-  - {fileID: 0}
-  current: 0
-  speed: 2
+  isInfected: 0
+  isDead: 0
 --- !u!136 &1036851757
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -33346,7 +33381,7 @@ GameObject:
   - component: {fileID: 1074959677}
   m_Layer: 0
   m_Name: Victim (27)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -33416,6 +33451,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1074959680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -37176,8 +37213,8 @@ GameObject:
   - component: {fileID: 1191102669}
   - component: {fileID: 1191102668}
   m_Layer: 0
-  m_Name: Victim
-  m_TagString: Untagged
+  m_Name: Victim (39)
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -37233,6 +37270,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1191102671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38881,7 +38920,7 @@ GameObject:
   - component: {fileID: 1251558458}
   m_Layer: 0
   m_Name: Victim (9)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -38951,6 +38990,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1251558461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39471,7 +39512,7 @@ GameObject:
   - component: {fileID: 1262749187}
   m_Layer: 0
   m_Name: Victim (37)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -39541,6 +39582,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1262749190
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -41653,7 +41696,7 @@ GameObject:
   - component: {fileID: 1323236408}
   m_Layer: 0
   m_Name: Victim
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -41762,6 +41805,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!195 &1323236407
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -47674,7 +47719,7 @@ GameObject:
   - component: {fileID: 1529426228}
   m_Layer: 0
   m_Name: Victim (29)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -47744,6 +47789,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1529426231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -53982,7 +54029,7 @@ GameObject:
   - component: {fileID: 1788462455}
   m_Layer: 0
   m_Name: Victim (23)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -54052,6 +54099,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1788462458
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54325,7 +54374,7 @@ GameObject:
   - component: {fileID: 1794483591}
   m_Layer: 0
   m_Name: Victim (5)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -54395,6 +54444,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1794483594
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54746,7 +54797,7 @@ GameObject:
   - component: {fileID: 1821172853}
   m_Layer: 0
   m_Name: Victim (25)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -54816,6 +54867,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1821172856
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -55717,7 +55770,7 @@ GameObject:
   - component: {fileID: 1864973912}
   m_Layer: 0
   m_Name: Victim (18)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -55787,6 +55840,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1864973915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57940,7 +57995,7 @@ GameObject:
   - component: {fileID: 1939403339}
   m_Layer: 0
   m_Name: Victim (11)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -58010,6 +58065,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &1939403342
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59620,7 +59677,7 @@ GameObject:
   - component: {fileID: 2017855017}
   m_Layer: 0
   m_Name: Victim (30)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -59690,6 +59747,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &2017855020
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60004,7 +60063,7 @@ GameObject:
   - component: {fileID: 2028626624}
   m_Layer: 0
   m_Name: Victim (31)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -60074,6 +60133,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &2028626627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -60625,7 +60686,7 @@ GameObject:
   - component: {fileID: 2045797565}
   m_Layer: 0
   m_Name: Victim (38)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -60695,6 +60756,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &2045797568
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -61526,7 +61589,7 @@ GameObject:
   - component: {fileID: 2080618796}
   m_Layer: 0
   m_Name: Victim (15)
-  m_TagString: Untagged
+  m_TagString: Victim
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 1
   m_StaticEditorFlags: 8
@@ -61596,6 +61659,8 @@ MonoBehaviour:
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
+  isInfected: 0
+  isDead: 0
 --- !u!114 &2080618799
 MonoBehaviour:
   m_ObjectHideFlags: 0
