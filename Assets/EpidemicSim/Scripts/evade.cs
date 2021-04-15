@@ -7,7 +7,7 @@ public class evade : MonoBehaviour
 {
     private NavMeshAgent _agent;
     public GameObject player;
-    public float EnemyDistanceRun = 3.0f;
+    public float EnemyDistanceRun = 4.0f;
     public Material infected;
     public Material dead;
     private bool isInfected = false;
@@ -47,6 +47,7 @@ public class evade : MonoBehaviour
             {
                 this.gameObject.GetComponent<Renderer>().material = dead;
             }
+
         }
     }
 
