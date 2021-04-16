@@ -13,7 +13,7 @@ public class evade : MonoBehaviour
     public bool isInfected;
     public bool isDead;
     private double countdown;
-    //public GameObject
+    public GameObject game;
 
     // Start is called before the first frame update
     void Start()
@@ -58,6 +58,12 @@ public class evade : MonoBehaviour
         if(other.gameObject.CompareTag("Player"))
         {
             this.gameObject.GetComponent<Renderer>().material = infected;
+
+            if (!isInfected)
+            {
+                game.gameObject.GetComponent<GameController>().scoreValue += 100;
+            }
+
             isInfected = true;
         }
     }

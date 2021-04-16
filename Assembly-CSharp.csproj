@@ -70,7 +70,6 @@
     <Compile Include="Assets\EpidemicSim\Scripts\PlayerController.cs" />
     <Compile Include="Assets\EpidemicSim\Scripts\WanderAI.cs" />
     <Compile Include="Assets\EpidemicSim\Scripts\evade.cs" />
-    <Compile Include="Assets\EpidemicSim\Scripts\score.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/Geerththan/Documents/GitHUB/COMP395_Final/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>

@@ -9,6 +9,9 @@ public class GameController : MonoBehaviour
     public static float healthValue = 60;
     public Text playerHealth;
 
+    public int scoreValue;
+    public Text playerScore;
+
     // Start is called before the first frame update
     //void Start()
     //{
@@ -18,6 +21,8 @@ public class GameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        playerScore.text = "Score: " + scoreValue;
+
         healthValue -= Time.deltaTime;
         playerHealth.text = "Health: " + Mathf.Round(healthValue);
 

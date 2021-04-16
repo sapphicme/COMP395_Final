@@ -31,7 +31,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5628289241672875029}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 4.3199997, y: 0, z: 12.419998}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -124,12 +124,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa5ab8f6d46889b43ac153a7b9f1f396, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 1131628691654494, guid: 5c6ccde0684f68f4f9de1e388495c480, type: 3}
   EnemyDistanceRun: 3
   infected: {fileID: 2100000, guid: e505f109eace48f4b99b67157c33acf5, type: 2}
   dead: {fileID: 2100000, guid: 70e4eb1421d354a468e6a4c2ab394fc0, type: 2}
   isInfected: 0
   isDead: 0
+  game: {fileID: 2717389908022797430, guid: 233ea6c07234bc74581065cfad714dcf, type: 3}
 --- !u!195 &5628289241672875026
 NavMeshAgent:
   m_ObjectHideFlags: 0
