@@ -7326,11 +7326,11 @@ RectTransform:
   m_Father: {fileID: 625958278}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -447, y: 134}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1000, y: 450}
+  m_Pivot: {x: 0, y: 1}
 --- !u!114 &224470728
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40314,6 +40314,10 @@ MonoBehaviour:
   playerHealth: {fileID: 952567779}
   scoreValue: 0
   playerScore: {fileID: 1928859784}
+  numOfHealthy: 40
+  healthyVictims: {fileID: 619276890}
+  numOfInfected: 1
+  infectedVictims: {fileID: 1928469252}
 --- !u!4 &1291921988
 Transform:
   m_ObjectHideFlags: 0

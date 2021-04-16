@@ -62,6 +62,8 @@ public class evade : MonoBehaviour
             if (!isInfected)
             {
                 game.gameObject.GetComponent<GameController>().scoreValue += 100;
+                game.gameObject.GetComponent<GameController>().numOfHealthy -= 1;
+                game.gameObject.GetComponent<GameController>().numOfInfected += 1;
             }
 
             isInfected = true;
