@@ -32,12 +32,12 @@ public class WanderAI : MonoBehaviour
                 _agent.SetDestination(newPos);
                 timer = 0;
             }
-    }
+        }
 
         if(this.gameObject.GetComponent<evade>().isDead == true)
         {
-        gameObject.GetComponent<NavMeshAgent>().isStopped = true;
-    }
+            gameObject.GetComponent<NavMeshAgent>().isStopped = true;
+        }
     }
 
     public static Vector3 RandomNavSphere(Vector3 origin, float dist, int layermask)
@@ -62,21 +62,6 @@ public class WanderAI : MonoBehaviour
             if (this.gameObject.GetComponent<evade>().isInfected == true && other.gameObject.GetComponent<evade>().isInfected == false)
             {
                 Debug.Log("trigerred");
-                other.gameObject.GetComponent<Renderer>().material = other.gameObject.GetComponent<evade>().infected;
-                other.gameObject.GetComponent<evade>().isInfected = true;
-            }
-        }
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        Debug.Log("trigerred6");
-        if(other.gameObject.CompareTag("Victim"))
-        {
-            Debug.Log("trigerred5");
-            if(this.gameObject.GetComponent<evade>().isInfected == true && other.gameObject.GetComponent<evade>().isInfected == false)
-            {
-                Debug.Log("trigerred4");
                 other.gameObject.GetComponent<Renderer>().material = other.gameObject.GetComponent<evade>().infected;
                 other.gameObject.GetComponent<evade>().isInfected = true;
             }
