@@ -55,13 +55,10 @@ public class WanderAI : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        Debug.Log("trigerred3");
         if (other.gameObject.CompareTag("Victim"))
         {
-            Debug.Log("trigerred2");
             if (this.gameObject.GetComponent<evade>().isInfected == true && other.gameObject.GetComponent<evade>().isInfected == false)
             {
-                Debug.Log("trigerred");
                 other.gameObject.GetComponent<Renderer>().material = other.gameObject.GetComponent<evade>().infected;
                 other.gameObject.GetComponent<evade>().isInfected = true;
             }

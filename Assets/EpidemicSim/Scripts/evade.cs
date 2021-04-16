@@ -13,6 +13,7 @@ public class evade : MonoBehaviour
     public bool isInfected;
     public bool isDead;
     private double countdown;
+    //public GameObject
 
     // Start is called before the first frame update
     void Start()
@@ -28,8 +29,6 @@ public class evade : MonoBehaviour
         if (!isInfected)
         {
             float distance = Vector3.Distance(transform.position, player.transform.position);
-
-            //Debug.Log("distance:" + distance);
 
             if(distance < EnemyDistanceRun)
             {

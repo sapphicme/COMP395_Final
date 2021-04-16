@@ -65,6 +65,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\EpidemicSim\Scripts\GameCamera.cs" />
+    <Compile Include="Assets\EpidemicSim\Scripts\GameController.cs" />
     <Compile Include="Assets\EpidemicSim\Scripts\LevelManager.cs" />
     <Compile Include="Assets\EpidemicSim\Scripts\PlayerController.cs" />
     <Compile Include="Assets\EpidemicSim\Scripts\WanderAI.cs" />
